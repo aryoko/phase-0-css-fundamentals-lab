@@ -3,3 +3,47 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+section[id="featured-property"] img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section[id="featured-property"] figcaption {
+  text-align: center;
+  font-size: 75%;
+}
+
+/*
+section[id="featured-property"] > p {
+  width: 800px;
+  text-align: center;
+}
+*/
+
+section[id="featured-property"] {
+  width: 1000px;
+  margin: auto;
+}
+
+header nav {
+  text-align: center;
+}
+
+nav > a {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: darkgrey;
+}
+
+section[id="details"] > div {
+  float: left;
+  width: 25%;
+  background-color: rebeccapurple;
+  text-align: center;
+}
